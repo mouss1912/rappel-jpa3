@@ -19,7 +19,7 @@ public class Realisateur extends Intervenant{
 	private List<Film> films = new ArrayList<Film>();
 	
 	// Constructeurs
-	public Realisateur(List<Film> films) {
+	public Realisateur() {
 		super();
 		this.films = new ArrayList<>();
 	}

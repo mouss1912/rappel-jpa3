@@ -18,7 +18,7 @@ public class Producteur extends Intervenant{
 	private List<Film> films = new ArrayList<Film>();
 	
 	// Constructeurs
-	public Producteur(List<Film> films) {
+	public Producteur() {
 		super();
 		this.films = new ArrayList<>();
 	}
